@@ -1,0 +1,19 @@
+//desafio:  Dentro da classe data criar 3 atributos (data, mês e ano). Criar data teste dentro do main e instanciar duas datas
+
+public class Data {
+	int dia;
+	int mes;
+	int ano;
+
+
+	public static void main (String [] args) {
+		Data a = new Data ();
+		 a.dia = 19;
+		 a.mes = 05;
+		 a.ano = 2002;
+		 
+		 System.out.printf("A data de nascimento de Júlia é %d/%d/%d",a.dia, a.mes, a.ano);
+	
+}
+	}
+  
